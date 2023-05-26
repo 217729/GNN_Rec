@@ -1,0 +1,195 @@
+/*详情页的样式文件*/
+em,
+i {
+    font-style: normal;
+}
+
+li {
+    list-style: none
+}
+
+img {
+    /* border 0 照顾低版本浏览器 如果 图片外面包含了链接会有边框的问题 */
+    border: 0;
+    /* 取消图片底侧有空白缝隙的问题 */
+    vertical-align: middle;
+}
+
+hr{
+    color: #ccc;
+}
+
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+.FirstLine {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.maintitle {
+    color: RGB(78, 77, 67);
+    font-size: 35px;
+    font-weight: bold;
+    /* font-family: "Times New Roman", serif; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.mainlogo {
+    float: left;
+    padding-right: 20px;
+    padding-left: 30px;
+}
+
+.idimply {
+    font-family: "黑体", serif;
+    float: right;
+    padding-right: 35px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.welcome {
+    padding-right: 50px;
+}
+
+.imply {
+    font-family: "Arial", sans-serif;
+    background-color: RGB(245, 245, 245);
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.link {
+    color: rgb(95, 160, 129);
+}
+
+.link:hover {
+    color: 368656;
+    text-decoration: underline;
+}
+
+
+.dropdown {
+    display: none;
+}
+
+.de_container {
+    width: 70%;
+    margin-left: 170px;
+    margin-top: 70px;
+    padding: 50px;
+    background: #fff;
+    box-shadow: 5px 5px 7px #647b6dbc;
+}
+
+
+.preview_img {
+    position: relative;
+    height: 360px;
+    border: 2px solid #daeade;
+}
+
+.preview_img img {
+    height: 350px;
+    width: 380px;
+    align-self: center;
+}
+
+.sku_name {
+    height: 35px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.goodsuid {
+    height: 32px;
+    color: #368656;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.summary dl {
+    overflow: hidden;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+
+.summary dt,
+.summary dd {
+    float: left;
+}
+
+.summary dt {
+    width: 100px;
+    line-height: 36px;
+
+    text-align: center;  
+    font-size: 22px;
+    
+    background-color: #368656;
+    color: #fff;
+    
+    margin-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 7px;
+}
+
+.summary dd {
+    width: 500px;
+}
+
+.summary_price,
+.summary_promotion {
+    position: relative;
+    padding: 10px 0;
+}
+
+.price {
+    font-size: 24px;
+    color: #368656;
+}
+
+.summary_price a {
+    color: #368656;
+}
+
+.summary_promotion dd {
+    line-height: 36px;
+    font-size: 18px;
+}
+
+
+.summary a.current {
+    border-color: #368656;
+}
+
+
+
+/* 清除浮动 */
+
+.clearfix:after {
+    visibility: hidden;
+    content: "";
+    height: 0;
+    display: block;
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}

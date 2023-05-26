@@ -1,0 +1,79 @@
+<div class="FirstLine">
+
+      <span class="maintitle">
+        <span>
+          <span style="color: RGB(87,96,113); size: 25px; "> GNN Recommendation System </span>
+        </span>
+      </span>
+
+      <span class="mainlogo">
+        <!-- <img src="/static/pictures/logo1.png" alt="主logo" width="40" height="37"> -->
+        <img src="/static/pictures/goods_square.png" alt="主logo" width="100" height="100">
+      </span>
+
+      <span class="idimply">
+        <span class="welcome"> 欢迎用户：嘿嘿 </span>
+        <span class="link" id="back" @click="exit">退出登录 </span>
+      </span>
+
+    </div>
+
+
+css:
+.a {
+  width: 1500px;
+  height: 575px;
+}
+
+.FirstLine {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.maintitle {
+  color: RGB(78, 77, 67);
+  font-size: 35px;
+  font-weight: bold;
+  /* font-family: "Times New Roman", serif; */
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.mainlogo {
+  float: left;
+  padding-right: 20px;
+  padding-left: 30px;
+}
+
+.idimply {
+  font-family: "黑体", serif;
+  float: right;
+  padding-right: 35px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.welcome {
+  padding-right: 50px;
+}
+
+.imply {
+  font-family: "Arial", sans-serif;
+  background-color: RGB(245, 245, 245);
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 40px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.link {
+  color: cadetblue;
+}
+
+.link:hover {
+  color: darkcyan;
+  text-decoration: underline;
+}

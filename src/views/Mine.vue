@@ -24,7 +24,7 @@
                 <button @click="favor" class="my_button">{{content}}</button>
                 <!-- <span class="arrow"> → </span> -->
                 <span class="cardlogo">
-                    <img src="/static/pictures/beginner.PNG" alt="beginners" height="70" width="70">
+                    <img src="/static/pictures/fun.PNG" alt="beginners" height="70" width="70">
                 </span>
                 <span class="ctitle"> Sunshine(u_id=1) </span>
                 <span class="explation">
